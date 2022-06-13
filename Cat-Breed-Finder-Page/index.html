@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breed Finder</title>
+    <link rel="stylesheet" href="CatBreedFinder_Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="image" href="background-cat.jpg">
+
+</head>
+<body>
+<header>
+<h1 id="title"> Cat Breed Finder </h1>
+</header>
+<h2 id="description" class="description text-center"> Whether you know the cat breeds you like or need a bit of guidance, we are here to help pair you with your ideal four-legged friend </h2>
+<form id="survey-form">
+    <div class="name">
+        <label id="name-label" for="name" id="name">Name </label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div> <br>
+  </div>
+    <div class="email">
+        <label id="email-label" for="email">Email</label>
+        <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+    </div> <br>
+        <div class="form-group">
+            <label id="number-label" for="number">Age</label>
+            <input type="number" name="age" id="number" min="10" max="99" placeholder="Select your age" required> 
+        </div> <br>
+    <div>
+        <label for="dropdown" id="experience"><p>Which option best describes of your experience on pets?</p>
+            <select id="dropdown" name="experience" required="">
+            <section class="dropdown-option">
+              <option disabled="" selected="" value="">Select your experience on a pet</option>
+            <option value="first">This will be my first </option>
+            <option value="some">I have some experience</option>
+            <option value="knowledge">I don't have experience but I have knowledge enough</option>
+            <option value="experienced">I'm experienced</option>
+            <option value="other">Other</option>
+            </section>
+        </select>
+    </div> <br>
+    <div class="activity">
+        
+      <label for="activity" id="activity">How much enrichment and playtime are you prepared to do?</label> <br><br>
+        <section class="activity input">
+        <label for="activity">
+        <input id="activity" name="activity" value="less" type="radio">I'd like a low-maintanence cat</label> <br>
+        </label>
+        <label for=activity>
+        <input id="activity" name="activity" value="medium" type="radio">I'd like a cat who will enjoy playing games and be active in the house</label> <br>
+        </label>
+        <label for=activity>
+          <input id="activity" name="activity" value="much" type="radio">I want a cat who needs plenty of enrichment
+        </label>
+        </sectionv>
+  </div> <br>
+    
+      <div class="home">
+        <label for="home"> Where will your cat be living? </label> <br><br>
+        <select id="home" name="living" required="">
+          <option disabled="" selected="" value="">Select an living environment</option>
+          <option value="indoor">indoors-only</option>
+          <option value="outdoor">free to roam outdoors</option>
+          <option value="limited">limited access to outdoor space</option>
+        </select>
+      </div> <br>
+
+      <div class="behavior">
+        <label for="behavior">A big softie or a mini tiger, whats your preference?</label> <br><br>
+        <section class="checkbox-input">
+        <input id="checkbox" type="checkbox" name="behavior" value="calm">
+        <label for="checkbox"> I'd like a cat that's calm </label> <br>
+        <input id="checkbox" type="checkbox" name="behavior" value="playful">
+        <label for="checkbox"> I'd like a cat that's playful and curious </label> <br>
+        <input type="checkbox" id="checkbox" name="behavior" value="active">
+        <label for="checkbox" type="checkbox" name="behavior">I'd like a cat that's active and inquisitive</label> <br>
+        </section>
+      </div> <br>
+
+      <div class="appearance">
+        <label for="appearance" id="appearance">Big or small, smooth or furr-ball, whats your preference?</label> <br><br>
+        <section class="appearance input">
+        <label>
+        <input id="activity" name="activity" value="small" type="radio" class="input-radio">I'd like a lean and elegant breed</label> <br>
+        </label>
+        <label>
+        <input id="activity" name="activity" value="avarage" type="radio" class="input-radio">I'd like a an avarage build cat breed </label> <br>
+        </label>
+        <label>
+          <input id="activity" name="activity" value="large" type="radio" class="input-radio">I'd prefer a larger and stocky breed
+        </label>
+      </section>
+
+    </div> <br>
+
+      <div class="textarea">
+        <label id="textarea">Additional Thoughts </label> <br>
+        <textarea
+          id="textarea" name="additional thoughts" rows="5" cols="40">
+        </textarea>
+      </div> <br>
+      <div class="form-group"> 
+        <input id="submit" type="submit" value="Submit">
+      </div>
+</div>
+</form>
+</body>
+<header>
+  <p style="text-align:right">This Site Created by KubilayTure
+  </header>
+</html>

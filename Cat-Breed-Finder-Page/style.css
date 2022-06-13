@@ -1,0 +1,42 @@
+body {
+    font-family: "Audiowide", sans-serif;
+    background-image: url("background-cat.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title {
+    color: #fc5603;
+    text-align: center;
+    font-size: 40px;
+}
+#description {
+    color:black;
+    text-align: center;
+}
+#survey-form div{
+    text-align: center;
+    border: 2px solid #fc5603;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+#survey-form div ::placeholder {
+    font-weight: bolder;
+    font-size: 12px;
+}
+#textarea {
+    border-radius: 10px;
+}
+#submit {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 4px;
+}
+section {
+    text-align: left;
+    font-weight: normal;
+}
